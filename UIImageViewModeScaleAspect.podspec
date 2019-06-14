@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'UIImageViewModeScaleAspect'
-  s.version      = '2.0'
+  s.version      = '2.1'
   s.summary      = 'Create animation of a UIImageView between twice contentMode ( UIViewContentModeScaleAspectFill / UIViewContentModeScaleAspectFit ).'
   s.homepage     = "https://github.com/VivienCormier/UIImageViewModeScaleAspect"
   s.author       = {'Vivien Cormier' => 'vivien.cormier@gmail.com'}
@@ -8,5 +8,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.source_files = 'UIImageViewModeScaleAspect/UIImageViewModeScaleAspect.swift'
   s.license      = 'MIT'
+  s.swift_version = '5.0'
   s.requires_arc = true
 end
